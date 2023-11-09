@@ -1,0 +1,14 @@
+#
+# Auto-generated on: 2023-11-06 09:46:00.293301
+# Generated UUID: f3224f6a-8969-4f73-8658-3b8d5ccc0d2f
+#
+# Put u-boot environment variables here. Before boot, boot.scr will use these variables:
+#
+# boot_config - Explicitly specify the boot configuration
+# fdtoverlays - List of overlay files
+# load_legacy - Don't load FIT image,
+# optargs - Optional arguments passed to the kernel
+
+fdtoverlays=/usr/lib/olinuxino-overlays/sun7i-a20/som-lcd-olinuxino-5.dtbo /usr/lib/olinuxino-overlays/sun7i-a20/spi1-spidev.dtbo /usr/lib/olinuxino-overlays/sun7i-a20/spi2-spidev.dtbo /usr/lib/olinuxino-overlays/sun7i-a20/sun7i-a20-i2c0.dtbo /usr/lib/olinuxino-overlays/sun7i-a20/sun7i-a20-i2c1.dtbo /usr/lib/olinuxino-overlays/sun7i-a20/sun7i-a20-i2c2.dtbo /usr/lib/olinuxino-overlays/sun7i-a20/sun7i-a20-spi0.dtbo /usr/lib/olinuxino-overlays/sun7i-a20/sun7i-a20-spi1.dtbo /usr/lib/olinuxino-overlays/sun7i-a20/sun7i-a20-spi2.dtbo /usr/lib/olinuxino-overlays/sun7i-a20/sun7i-a20-uart3.dtbo /usr/lib/olinuxino-overlays/sun7i-a20/sun7i-a20-uart4.dtbo /usr/lib/olinuxino-overlays/sun7i-a20/sun7i-a20-uart5.dtbo /usr/lib/olinuxino-overlays/sun7i-a20/sun7i-a20-uart6.dtbo /usr/lib/olinuxino-overlays/sun7i-a20/sun7i-a20-uart7.dtbo /usr/lib/olinuxino-overlays/sun7i-a20/som-i2c2-silead.dtbo
+optargs=loglevel=7
+

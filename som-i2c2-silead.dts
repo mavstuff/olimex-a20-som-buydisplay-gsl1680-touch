@@ -1,0 +1,25 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+	compatible = "olimex,a20-olimex-som-evb",
+		     "olimex,a20-olimex-som-evb-emmc";
+	description = "gsl1680";
+
+	fragment0 {
+		target = <&i2c2>;
+		__overlay__ {
+			gsl1680: gsl1680@4d {
+				#address-cells = <1>;
+				#size-cells = <0>;
+				compatible = "silead,gsl1680";
+				reg = <0x40>;
+				interrupt-parent = <&pio>;
+		                interrupts = <7 10 2>;
+				touchscreen-size-x = <480>;
+				touchscreen-size-y = <800>;
+				touchscreen-swapped-x-y;
+			};
+		};
+	};
+};
