@@ -1,5 +1,5 @@
 
-This is a small manual on how to connect Buydisplay's 5 inch Touch Panel  with GSL1680F controller to Olimex A20-SOM or A20-SOM-EVB board
+This is a small manual on how to connect Buydisplay's 5 inch Touch Panel  with GSL1680F controller to Olimex A20-SOM or A20-SOM-EVB board. If using A20-SOM -EVB board, one will need to reconnect 4 jumpers to enable I2C2 on LCD connector (see schematics).
 
 1. Use Olimage guide (link below) to get acquainted with kernel building process:
 https://github.com/OLIMEX/OLINUXINO/blob/master/DOCUMENTS/OLIMAGE/Olimage-guide.pdf
